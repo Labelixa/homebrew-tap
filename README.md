@@ -5,7 +5,9 @@ the published npm tarball (sha256 measured, not typed). Do not edit here;
 regenerate for a new version.
 
 ```
-brew install labelixa/tap/labelixa
+brew tap labelixa/tap
+brew trust labelixa/tap   # Homebrew 7+: third-party taps are trusted once
+brew install labelixa
 ```
 
 Target repository: `Labelixa/homebrew-tap`. Package source: https://www.npmjs.com/package/labelixa
